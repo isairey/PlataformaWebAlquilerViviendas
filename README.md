@@ -195,7 +195,7 @@ Este módulo es utilizado por clientes interesados en rentar propiedades.
 # 📂 Estructura del proyecto
 
 ```bash
-HouseRentalManagementSystem/
+PlataformaWebAlquilerViviendas/
 │
 ├── src/                      # Código fuente Java
 ├── controller/               # Controladores MVC
@@ -229,7 +229,7 @@ HouseRentalManagementSystem/
 ## 1️⃣ Clonar repositorio
 
 ```bash
-git clone https://github.com/isairey/HouseRentalManagementSystem.git
+git clone https://github.com/isairey/PlataformaWebAlquilerViviendas.git
 ```
 
 ---
@@ -281,7 +281,7 @@ Tomcat 7
 ## 6️⃣ Abrir aplicación
 
 ```bash
-http://localhost:8080/HouseRentalManagementSystem
+http://localhost:8080/PlataformaWebAlquilerViviendas
 ```
 
 ---
