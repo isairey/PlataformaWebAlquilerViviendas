@@ -1,65 +1,438 @@
-<p><h1 align="center">60.房屋出租管理系统</h1></p>
+<div align="center">
 
-- <b>完整代码获取地址：从戎源码网 ([https://armycodes.com/](https://armycodes.com/))</b>
-- <b>技术探讨、资料分享，请加QQ群：692619798</b> 
-- <b>作者微信：19941326836  QQ：952045282</b> 
-- <b>承接计算机毕业设计、Java毕业设计、Python毕业设计、深度学习、机器学习</b>
-- <b>选题+开题报告+任务书+程序定制+安装调试+论文+答辩ppt 一条龙服务</b>
-- <b>所有选题地址 ([https://github.com/YuLin-Coder/AllProjectCatalog](https://github.com/YuLin-Coder/AllProjectCatalog)) </b>
+<img width="220" src="https://cdn-icons-png.flaticon.com/512/619/619153.png" />
 
-## 项目介绍
-基于ssm的房屋出租管理系统：前端jsp、jquery、easyui，后端 springmvc、spring、mybatis，集成房屋列表、房屋详情浏览、租赁信息等功能于一体的系统。
+# 🏠 Sistema de Gestión de Renta de Casas
 
-## 功能介绍
+### Plataforma web de administración y alquiler de viviendas 🚀
 
-### 管理员
+<p align="center">
+  <b>House Rental Management System</b> es una plataforma desarrollada con arquitectura SSM (Spring + SpringMVC + MyBatis) orientada a la gestión integral de viviendas, arrendadores, usuarios y procesos de alquiler mediante una interfaz web moderna y dinámica.
+</p>
 
-- 个人信息：登录日志查询、日志删除、密码修改
-- 网站信息：关于我们的查看和修改，联系我们查看和修改，外链信息的增删改查
-- 房东信息：房东区域的增删改查，房东信息的查询和删除，房东信息通过操作和停用操作，关键词搜索，照片预览功能
-- 用户信息：用户信息列表查询，关键词搜索，用户充值操作，用户意见列表查询，意见回复
-- 公告信息：公告类型的增删改查、公告信息的增删改查、公告信息的缩略图上传
-- 房屋信息：房屋标签的增删改查、房屋类型的增删改查、房屋信息列表查询、房屋信息关键词搜索、房屋信息详情查看、房屋信息下架
+<p align="center">
+  <img src="https://img.shields.io/badge/HouseRental-WebPlatform-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/SSM-JavaFramework-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
+  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+  <img src="https://img.shields.io/badge/OpenSource-RentalSystem-success?style=for-the-badge">
+</p>
 
-### 房东
+<p align="center">
+  <a href="#-acerca-del-proyecto">Acerca</a> •
+  <a href="#-módulos-del-sistema">Módulos</a> •
+  <a href="#-características">Características</a> •
+  <a href="#-tecnologías-utilizadas">Tecnologías</a> •
+  <a href="#-vista-previa">Vista previa</a>
+</p>
 
-- 基本功能：房东注册、登录、安全退出、密码修改
-- 个人信息：个人信息查看、修改、上传照片
-- 房屋信息：房屋信息的增删改查、上传房屋的缩略图照片
-- 租赁信息：已经租赁房屋的列表查询、关键词搜索
-- 退租信息：房屋退租列表查询、关键词搜索
-- 交流信息：查看用户的房屋评论、针对用户的评论进行回复
+</div>
 
-### 用户
+---
 
-- 基本功能：用户注册、登录、安全退出、密码修改
-- 网站前台页面：主导航栏、轮播图、房屋信息关键词搜索、房东信息列表、房屋信息列表、按房屋类型浏览、按房东区域浏览、公告信息查看等
-- 个人中心：个人信息查看和修改，充值信息，意见信息的增删改查
-- 租赁信息：房屋收藏列表、房屋租赁、房屋交流、已租赁列表、退租操作、退租列表查询、交流信息查询、各模块的关键词搜索
+# 🌌 Acerca del proyecto
 
-## 环境
+**Sistema de Gestión de Renta de Casas** es una plataforma web desarrollada bajo arquitectura SSM utilizando SpringMVC, Spring y MyBatis para administrar procesos de alquiler de viviendas.
 
-- <b>IntelliJ IDEA 2021.3</b>
+El sistema permite gestionar usuarios, arrendadores, propiedades, contratos de renta y comunicación entre clientes y propietarios mediante un entorno centralizado y moderno.
 
-- <b>Mysql 5.7.26</b>
+El sistema fue diseñado para:
 
-- <b>Tomcat 7.0.73</b>
+- 🏠 Gestionar viviendas
+- 👥 Administrar usuarios
+- 📅 Gestionar alquileres
+- 📋 Supervisar contratos
+- 💳 Gestionar rentas
+- 📊 Visualizar información
+- 🔐 Administrar accesos
+- 🌐 Centralizar operaciones inmobiliarias
 
-- <b>JDK 1.8</b>
+---
 
-## 运行截图
+# ✨ Características
+
+## 🏘️ Gestión de propiedades
+
+- 🏠 Registro de viviendas
+- 📍 Gestión de ubicaciones
+- 🖼️ Subida de imágenes
+- 💰 Configuración de precios
+- 📋 Información detallada
+
+---
+
+## 👥 Gestión de usuarios
+
+- 👤 Registro de clientes
+- 🔐 Inicio de sesión
+- 📄 Gestión de perfiles
+- ⚡ Administración centralizada
+- 📊 Historial de operaciones
+
+---
+
+## 📅 Sistema de alquileres
+
+- 📆 Reservas dinámicas
+- 🏠 Gestión de contratos
+- 📋 Historial de alquileres
+- ⚡ Confirmaciones rápidas
+- 💳 Gestión financiera
+
+---
+
+## 📊 Panel administrativo
+
+- 📈 Dashboard administrativo
+- 👥 Gestión de usuarios
+- 🏠 Supervisión inmobiliaria
+- 📅 Administración de rentas
+- 🔐 Gestión de permisos
+
+---
+
+# 👨‍💼 Módulos del sistema
+
+## 🛠️ Admin Module
+
+Este módulo administra toda la plataforma inmobiliaria.
+
+### Funcionalidades:
+
+- 👥 Gestión de usuarios
+- 🏠 Administración de viviendas
+- 📊 Dashboard administrativo
+- 📋 Gestión de anuncios
+- 🔐 Gestión de accesos
+
+---
+
+## 🏠 Landlord Module
+
+Este módulo es utilizado por propietarios de viviendas.
+
+### Funcionalidades:
+
+- ➕ Publicación de propiedades
+- 🖼️ Gestión de imágenes
+- 📍 Configuración de viviendas
+- 📋 Gestión de alquileres
+- 💬 Respuesta a comentarios
+
+---
+
+## 👤 User Module
+
+Este módulo es utilizado por clientes interesados en rentar propiedades.
+
+### Funcionalidades:
+
+- 🔍 Buscar viviendas
+- 📋 Consultar detalles
+- ❤️ Guardar propiedades favoritas
+- 📅 Rentar viviendas
+- 💬 Comunicación con propietarios
+
+---
+
+# 🛠️ Tecnologías utilizadas
+
+## 🎨 Frontend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,js,jquery" />
+</p>
+
+- JSP
+- HTML5
+- CSS3
+- JavaScript
+- jQuery
+- EasyUI
+
+---
+
+## ⚙️ Backend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=java,spring,maven" />
+</p>
+
+- Spring
+- Spring MVC
+- MyBatis
+- Maven
+- Java 8
+
+---
+
+## 🗄️ Base de datos
+
+<p>
+  <img src="https://skillicons.dev/icons?i=mysql" />
+</p>
+
+- MySQL 5.7
+- Relaciones SQL
+- Persistencia de datos
+- Gestión inmobiliaria
+
+---
+
+## 🧰 Herramientas
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,idea,vscode" />
+</p>
+
+- Git
+- GitHub
+- IntelliJ IDEA 2021.3
+- Visual Studio Code
+- Tomcat 7
+
+---
+
+# 📂 Estructura del proyecto
+
+```bash
+HouseRentalManagementSystem/
+│
+├── src/                      # Código fuente Java
+├── controller/               # Controladores MVC
+├── service/                  # Lógica de negocio
+├── mapper/                   # MyBatis Mappers
+├── entity/                   # Entidades
+├── webapp/                   # Recursos JSP
+├── static/                   # Recursos frontend
+├── screenshot/               # Capturas del sistema
+├── pom.xml
+├── README.md
+└── LICENSE
+```
+
+---
+
+# ⚡ Instalación
+
+## 📋 Requisitos
+
+- JDK 1.8
+- Maven
+- MySQL 5.7
+- Tomcat 7
+- IntelliJ IDEA
+
+---
+
+# 🚀 Configuración del proyecto
+
+## 1️⃣ Clonar repositorio
+
+```bash
+git clone https://github.com/isairey/HouseRentalManagementSystem.git
+```
+
+---
+
+## 2️⃣ Crear base de datos
+
+```sql
+CREATE DATABASE house_rental_system;
+```
+
+---
+
+## 3️⃣ Configurar conexión MySQL
+
+Editar:
+
+```bash
+jdbc.properties
+```
+
+Agregar:
+
+```properties
+jdbc.url=jdbc:mysql://localhost:3306/house_rental_system
+jdbc.username=root
+jdbc.password=root
+```
+
+---
+
+## 4️⃣ Importar base de datos
+
+```bash
+database/house_rental_system.sql
+```
+
+---
+
+## 5️⃣ Ejecutar proyecto
+
+Desplegar proyecto en:
+
+```bash
+Tomcat 7
+```
+
+---
+
+## 6️⃣ Abrir aplicación
+
+```bash
+http://localhost:8080/HouseRentalManagementSystem
+```
+
+---
+
+# 📊 Funcionalidades principales
+
+## 🏠 Gestión inmobiliaria
+
+- Publicación de viviendas
+- Administración de propiedades
+- Gestión de imágenes
+- Control de alquileres
+
+---
+
+## 👥 Administración de usuarios
+
+- Registro y autenticación
+- Gestión de perfiles
+- Roles administrativos
+- Historial de actividad
+
+---
+
+## 📅 Gestión de alquileres
+
+- Reservas dinámicas
+- Confirmaciones rápidas
+- Historial financiero
+- Gestión contractual
+
+---
+
+# 📸 Vista previa
+
+## 🖥️ Interfaces del sistema
+
+<div align="center">
+
+### 🏠 Página principal
 ![](screenshot/1.png)
 
+### 🔐 Inicio de sesión
 ![](screenshot/2.png)
 
+### 🏘️ Gestión de propiedades
 ![](screenshot/3.png)
 
+### 📅 Gestión de alquileres
 ![](screenshot/4.png)
 
+### 👥 Gestión de usuarios
 ![](screenshot/5.png)
 
+### 📊 Dashboard administrativo
 ![](screenshot/6.png)
 
+### 💬 Sistema de comunicación
 ![](screenshot/7.png)
 
+### ⚙️ Configuración del sistema
 ![](screenshot/8.png)
+
+</div>
+
+---
+
+# 🧠 Objetivos del proyecto
+
+## 🎯 Aprendizaje y administración
+
+- Desarrollo web Java
+- Arquitectura SSM
+- Gestión inmobiliaria
+- Bases de datos SQL
+- Automatización de procesos
+- Sistemas administrativos
+- Desarrollo empresarial
+
+---
+
+# 🚧 Roadmap
+
+## 🔮 Próximas mejoras
+
+- 📱 Aplicación móvil
+- ☁️ Infraestructura cloud
+- 💳 Pagos electrónicos
+- 🤖 Recomendaciones inteligentes
+- 🌐 API REST moderna
+- 🔔 Notificaciones en tiempo real
+- 📍 Geolocalización de propiedades
+
+---
+
+# 🤝 Contribuciones
+
+Las contribuciones son bienvenidas ❤️
+
+## Cómo contribuir
+
+1. Fork del proyecto
+
+```bash
+git checkout -b feature/nueva-funcionalidad
+```
+
+2. Commit
+
+```bash
+git commit -m "✨ Nueva funcionalidad"
+```
+
+3. Push
+
+```bash
+git push origin feature/nueva-funcionalidad
+```
+
+4. Pull Request 🚀
+
+---
+
+# 👨‍💻 Desarrollador
+
+<div align="center">
+
+## Isai Reyes — Java & Spring Developer
+
+Desarrollador apasionado por plataformas inmobiliarias, sistemas administrativos y arquitectura Java moderna 🚀
+
+</div>
+
+---
+
+# 🌟 Apoya el proyecto
+
+⭐ Dale una estrella  
+🍴 Haz fork  
+📢 Comparte el proyecto
+
+---
+
+# 📜 Licencia
+
+Proyecto open source orientado al aprendizaje de SpringMVC, MyBatis y sistemas de gestión inmobiliaria.
+
+---
+
+<div align="center">
+
+### 🏠 Sistema de Gestión de Renta de Casas — administración inteligente de propiedades y alquileres 🚀
+
+</div>
